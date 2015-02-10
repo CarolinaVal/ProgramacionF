@@ -1,0 +1,58 @@
+1) ls  (List)
+Muestra todos los ficheros contenidos en un directorio. Ej. ls 
+2) mkdir
+Crea nuevos directorios. Ej. mkdir Examenes.
+3) .txt
+Crear documentos de texto. 
+4) [Ctrl]+[C]
+Salir sin salvar el documento
+5) [Ctrl]+[K]+[X]
+Salir salvando el documento
+6)rmdir ó rd
+Para borrar directorios. Ej. rmdir Gatito
+7)mv
+Mover o renombrar directorios y ficheros
+8)pwd (Present Working Directory)
+Muestra la ruta actual o dónde nos encontramos. Ej. pwd
+9)cd
+Sirve para volver al inicio. Ej. cd ..
+10)echo
+Se utiliza para mostrar mensajes o repetir líneas. Ej. echo  $SHELL
+11)/etc
+Guarda archivos configurados para el sistema . Ej /etc
+12)/bin 
+Muestra la localización de varios programas frecuentemente utilizados en el sistema
+13) /usr/bin
+Localización para programas en el sistema
+14) file.exe 
+Archivo o programa ejecutable
+15) file.txt 
+Archivo de texto
+16) file.png, file.gif, file.jpg
+Imágenes
+17) \
+Cancela o anula el significado del siguiente comando o carácter. Ej  \%
+18) file
+Brinda información sobre el tipo de archivo o directorio
+19) ls -a
+Muestra el contenido de un directorio, incluso los archivos escondidos. Ej. ls -a
+20)man
+Busca en el manual un comando en particular. Ej. man ls 
+21) man -k
+Realiza una búsqueda en todos los manuales que contengan el término que se indica
+22) touch
+Crear un archivo en blanco. Ej. touch nuevo1
+23) cp
+Copiar un archivo o directorio. Ej cp Examenes Muestras
+24)rm 
+Eliminar un archivo
+25)vi
+Editar un archivo
+26) cat
+Ver un archivo. Ej. cat nuevo2
+27) less
+Conveniente para ver archivos grandes. Ej. less nuevo2
+28) chmod
+Cambiar permisos en un archivo o directorio
+29) ls -ld
+Ver los permisos de un directorio específico 

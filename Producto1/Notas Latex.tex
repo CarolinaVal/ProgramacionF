@@ -1,0 +1,59 @@
+% Ejemplo de documento LaTeX
+% Tipo de documento y tamaño de letra
+\documentclass[12pt]{article}
+% Preparando para documento en Español.
+% Para documento en Inglés no hay que hacer esto.
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+\usepackage[utf8]{inputenc}
+% EL titulo, autor y fecha del documento
+\title{Tutorial breve de los comandos de Bash}
+\author{Carolina Valenzuela}
+\date{03 de Febrero de 2015}
+% Aqui comienza el cuerpo del documento
+\begin{document}
+% Construye el título
+\maketitle
+\section{¿Qué es {\tt bash}?}
+Bash es un interpretador de comandos utilizado sobre el sistema operativo Linux.
+Su función es de mediar entre el usuario y el sistema.
+\section{Navegación}
+Esta sección describe como se puede navegar entre archivos y directorios.
+\section{Husmeando en el sistema}
+Veremos 31 comandos:
+\begin{description}
+\item {\tt ls} (Lista los archivos y directorios). Ej: ls
+\item {\tt less} (Ver el contenido de archivos). Ej less Notas.txt
+\item {\tt file} (Nos informa sobre el tipo de archivo).Ej: file *
+\item {\tt mkdir} (Crea nuevos directorios). Ej: mkdir ProgFortran
+\item {\tt rmdir} (Borrar directorios). Ej: rmdir ProgFortran
+\item {\tt mv} (Mover o renombrar directorios y ficheros). Ej: mv../Programacion9152
+\item {\tt pwd} (Muestra la ruta actual o dónde nos encontramos).Ej: pwd
+\item {\tt cd} (Sirve para volver al inicio). Ej: cd
+\item {\tt echo} (Se utiliza para mostrar mensajes o repetir líneas). Ej: echo SHELL
+\item {\tt ls -a} (Muestra el contenido de un directorio, incluso los archivos escondidos). Ej: ls -a
+\item {\tt man} (Busca en el manual un comando en particular). Ej: man rm
+\item {\tt touch} (Crear un archivo en blanco). Ej: touch Nombrearchivo
+\item {\tt cp} (Copiar un archivo o directorio). Ej: cp -R /Programacion9152 .
+\item {\tt rm} (Eliminar un archivo). Ej: rm Notas.txt
+\item {\tt vi} (Editar un archivo). Ej: vi Notas.txt
+\item {\tt cat} (Ver un archivo). Ej: cat Notas.txt
+\item {\tt ls -ld} (Ver los permisos de un directorio específico). Ej: ls -ld
+\item {\tt chmod} (Cambiar permisos en un archivo o directorio). Ej: chmod 755 /Programacion9152
+\item {\tt ls -al} (Muestra todos los archivos de un directorio). Ej: ls -al
+\item {\tt git push} (Subir los archivos a github). Ej: git push Notas.txt
+\item {\tt df -h} (Muestra las unidades de disco, el tamaño y el espacio libre). Ej: df -h
+\item {\tt tail} (Muestra las últimas diez líneas del archivo). Ej: tail my.cnf
+\item {\tt watch "comando"} (Ejecuta repetidamente el comando entre comillas y muestra el resultado en pantalla). Ej: watch du -s -h
+\item {\tt echo "texto" >> archivo} (Añade la línea de texto "texto" al final del archivo "archivo"). Ej: echo max_allowed_packet=20mb >> /etc/mysql/my.cnf
+\item {\tt apropos} (Busca la palabra clave dentro de man (información sobre comandos linux), si la encuentra muestra dónde la ha encontrado). Ej: apropos split
+\item {\tt hostname} (Muestra el nombre de red del equipo). Ej: hostname
+\item {\tt delgroup} (Elimina el grupo de seguridad seleccionado). Ej: delgroup postgresql
+\item {\tt clear} (Limpia la terminal dejándola en blanco, como recién abierta). Ej: clear
+\item {\tt mc} (Explorador de archivos que incluye su propio edito). Ej: sudo mc
+\item {\tt ln} (Hace copias enlazadas; ambos archivos se actualizan en cuanto uno se guarda). Ej: ln archivo1 /directorio/archivo2
+\item {\tt history} (Muestra el listado de comandos usados por el usuario). Ej: (~/.bash_history)
+\item {\tt halt} (Apaga el equipo). Ej: halt  
+\end{description}
+% Nunca debe faltar esta última linea.
+\end{document}
