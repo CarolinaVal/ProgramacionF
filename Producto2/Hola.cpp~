@@ -1,0 +1,11 @@
+#include <iostream>
+ 
+using namespace std; 
+ int main()
+{
+  cout << "Hello, world!"<< endl;
+  return 0;
+}
+{cout << "Hola! Tratare de adivinar un numero"<< endl;
+  return 0;}
+

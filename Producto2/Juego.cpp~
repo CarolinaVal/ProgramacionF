@@ -1,0 +1,22 @@
+#include <iostream>
+ 
+using namespace std; 
+ int main()
+{
+{cout << "Hola! Tratare de adivinar un numero"<< endl;
+  return 0;}
+{cout << "Piensa en un numero entre 1 y 10"<< endl;
+  return 0;}
+sleep(5);
+{cout << "Ahora multiplicalo por 9"<< endl;
+  return 0;}
+sleep(5);
+{cout << "Si el número tiene 2 dígitos, súmalos entre si: Ej. 36 -> 3+6=9. Si tu número tiene un solo dígito, súmale 0."<< endl;
+  return 0;}
+sleep(5);
+{cout << "Al numero resultante sumale 4"<< endl;
+  return 0;}
+sleep(10);
+{cout << "Muy bien. El resultado es 13 :)"<< endl;
+  return 0;}
+}
