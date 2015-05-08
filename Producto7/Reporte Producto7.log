@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.15)  7 MAY 2015 15:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.15)  8 MAY 2015 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,6 +298,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks21
+)
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
@@ -320,35 +327,65 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
 ))
+\Gin@req@height=\dimen112
+\Gin@req@width=\dimen113
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count100
+\Gm@cntv=\count101
+\c@Gm@tempcnt=\count102
+\Gm@bindingoffset=\dimen114
+\Gm@wd@mp=\dimen115
+\Gm@odd@mp=\dimen116
+\Gm@even@mp=\dimen117
+\Gm@layoutwidth=\dimen118
+\Gm@layoutheight=\dimen119
+\Gm@layouthoffset=\dimen120
+\Gm@layoutvoffset=\dimen121
+\Gm@dimlist=\toks22
+)
 (./Reporte Producto7.aux)
 \openout1 = `"Reporte Producto7.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count100
-\scratchdimen=\dimen112
+\scratchcounter=\count103
+\scratchdimen=\dimen122
 \scratchbox=\box28
-\nofMPsegments=\count101
-\nofMParguments=\count102
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count103
-\MPscratchDim=\dimen113
-\MPnumerator=\count104
-\makeMPintoPDFobject=\count105
-\everyMPtoPDFconversion=\toks22
+\nofMPsegments=\count104
+\nofMParguments=\count105
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count106
+\MPscratchDim=\dimen123
+\MPnumerator=\count107
+\makeMPintoPDFobject=\count108
+\everyMPtoPDFconversion=\toks24
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -356,10 +393,6 @@ Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -378,10 +411,6 @@ Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
-\KV@toks@=\toks23
-)
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
@@ -401,39 +430,158 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 486.25761pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 652.70622pt, 71.13188pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=486.25761pt
+* \textheight=652.70622pt
+* \oddsidemargin=-15.36449pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 22--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 25--31
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[2] (./Reporte Producto7.aux) ) 
+
+Overfull \hbox (7.74263pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 real :: Tiempo1M, Tiempo2M, Tiempo3M, Tiempo4M, Tiempo5M, Ti
+empo1MIN, Tiempo2MIN[] 
+ []
+
+
+Overfull \hbox (32.44264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 real :: Tiempo3MIN, Tiempo4MIN, Tiempo5MIN, Periodomax1, Per
+iodomax2, Periodomax3, k[] 
+ []
+
+
+Overfull \hbox (50.96765pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 real :: Periodomax4, Periodomin1, Periodomin2, Periodomin3, 
+Periodomin4, Promax, Promin[] 
+ []
+
+
+Overfull \hbox (26.26764pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 real :: TiempoMaxnocturno1,TiempoMaxnocturno2,TiempoMaxnoctu
+rno3,TiempoMaxnocturno4[] 
+ []
+
+
+Overfull \hbox (1.56763pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Periodomaxdiurno3,Periodomaxnocturno1, Periodomaxnocturno2, 
+Periodomaxnocturno3[] 
+ []
+
+[2] [3] [4] [5] [6]
+Overfull \hbox (20.09264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 promaxnocturno = ((Periodomaxnocturno1+Periodomaxnocturno2+P
+eriodomaxnocturno3)/3)[] 
+ []
+
+
+Overfull \hbox (20.09264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Las mareas maximas de los cinco meses son', Max1, 
+Max2, Max3, Max4, Max5[] 
+ []
+
+
+Overfull \hbox (20.09264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Las mareas minimas de los cinco meses son', Min1, 
+Min2, Min3, Min4, Min5[] 
+ []
+
+
+Overfull \hbox (20.09264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Periodos de maximos', Periodomax1, Periodomax2, Pe
+riodomax3, Periodomax4[] 
+ []
+
+
+Overfull \hbox (20.09264pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Periodos de minimos', Periodomin1, Periodomin2, Pe
+riodomin3, Periodomin4[] 
+ []
+
+
+Overfull \hbox (7.74263pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Tiempos de mareas maximas diurnas', TiempoMaxdiurn
+o1,TiempoMaxdiurno2,[] 
+ []
+
+
+Overfull \hbox (44.79265pt too wide) in paragraph at lines 293--293
+[]\OT1/cmtt/m/n/12 Print *, 'Tiempos de mareas maximas nocturnas', TiempoMaxnoc
+turno1,TiempoMaxnocturno2,[] 
+ []
+
+[7] <General.png, id=29, 254.45062pt x 183.68625pt>
+File: General.png Graphic file (type png)
+ <use General.png>
+Package pdftex.def Info: General.png used on input line 328.
+(pdftex.def)             Requested size: 254.45pt x 183.68578pt.
+ [8]
+[9 <./General.png>] (./Reporte Producto7.aux) ) 
 Here is how much of TeX's memory you used:
- 2222 strings out of 494925
- 28803 string characters out of 6178544
- 88858 words of memory out of 5000000
- 5430 multiletter control sequences out of 15000+600000
- 8713 words of font info for 32 fonts, out of 8000000 for 9000
+ 2783 strings out of 494925
+ 37056 string characters out of 6178544
+ 106147 words of memory out of 5000000
+ 5975 multiletter control sequences out of 15000+600000
+ 8882 words of font info for 33 fonts, out of 8000000 for 9000
  62 hyphenation exceptions out of 8191
- 37i,7n,23p,1002b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb>
-Output written on "Reporte Producto7.pdf" (2 pages, 41486 bytes).
+ 38i,7n,23p,1002b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmtt12.pfb>
+Output written on "Reporte Producto7.pdf" (9 pages, 93806 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 15 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 35 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

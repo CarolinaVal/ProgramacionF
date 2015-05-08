@@ -128,7 +128,7 @@ do i=1,24
 k=Maxdiurno1-Altura(i)
 if (k<0) then
 Maxdiurno1= Altura (i)
-TiempoMaxdiurno1= i/48.00
+TiempoMaxdiurno1= i*0.5
 end if
 end do 
 
@@ -137,7 +137,7 @@ do i=25,48
 k=Maxnocturno1-Altura(i)
 if (k<0) then
 Maxnocturno1= Altura(i)
-TiempoMaxnocturno1= i/48.00
+TiempoMaxnocturno1= i*0.5
 end if
 end do
 
@@ -146,7 +146,7 @@ do i=49,73
 k=Maxdiurno2-Altura(i)
 if (k<0) then
 Maxdiurno2= Altura (i)
-TiempoMaxdiurno2= i/48.00
+TiempoMaxdiurno2= i*0.5
 end if
 end do 
 
@@ -156,7 +156,7 @@ do i=74,98
 k= Maxnocturno2-Altura(i)
 if (k<0) then
 Maxnocturno2= Altura(i)
-TiempoMaxnocturno2= i/48.00
+TiempoMaxnocturno2= i*0.5
 end if 
 end do
 
@@ -166,7 +166,7 @@ do i=99,123
 k= Maxdiurno3-Altura(i)
 if (k<0) then
 Maxdiurno3= Altura(i)
-TiempoMaxdiurno3= i/48.00
+TiempoMaxdiurno3= i*0.5
 end if
 end do 
 
@@ -175,7 +175,7 @@ do i=124,148
 k= Maxnocturno3-Altura(i)
 if (k<0) then
 Maxnocturno3= Altura(i)
-TiempoMaxnocturno3= i/48.00
+TiempoMaxnocturno3= i*0.5
 end if 
 end do
 
@@ -184,7 +184,7 @@ do i=149,173
 k= Maxdiurno4-Altura(i)
 if (k<0) then
 Maxdiurno4= Altura(i)
-TiempoMaxdiurno4= i/48.00
+TiempoMaxdiurno4= i*0.5
 end if
 end do 
 
@@ -194,7 +194,7 @@ do i=174,198
 k= Maxnocturno4-Altura(i)
 if (k<0) then
 Maxnocturno4= Altura(i)
-TiempoMaxnocturno4= i/48.00
+TiempoMaxnocturno4= i*0.5
 end if 
 end do
 
@@ -229,7 +229,7 @@ Print *, 'Tiempo de las mareas minimas', Tiempo1MIN, Tiempo2MIN, Tiempo3MIN, Tie
 Print *, 'Periodos de maximos', Periodomax1, Periodomax2, Periodomax3, Periodomax4
 Print *, 'Periodos de minimos', Periodomin1, Periodomin2, Periodomin3, Periodomin4
 Print *, 'Promedio de periodos de las mareas maximas', Promax
-Print *, 'Promedio de periodos de las mareas maximas', Promin
+Print *, 'Promedio de periodos de las mareas minimos', Promin
 Print *, 'Las mareas maximas diurnas de cinco dias son', Maxdiurno1,Maxdiurno2,Maxdiurno3,Maxdiurno4
 Print *, 'Las mareas maximas nocturnas de cinco dias son', Maxnocturno1, Maxnocturno2, Maxnocturno3, Maxnocturno4
 Print *, 'Tiempos de mareas maximas diurnas', TiempoMaxdiurno1,TiempoMaxdiurno2,TiempoMaxdiurno3,TiempoMaxdiurno4
